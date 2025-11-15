@@ -1,0 +1,14 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+	float cena_za_litr_benzyny;
+		float przejechane_km;
+		cout << "podaj cene za litr benzyny";
+	    cin >> cena_za_litr_benzyny;
+		cout << "podaj przejechane km";
+			cin >> przejechane_km;
+			cout << przejechane_km / 100 * 9 *cena_za_litr_benzyny;
