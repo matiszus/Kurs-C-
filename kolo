@@ -1,0 +1,15 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+	int promien;
+	float pi = 3.14;
+	cout << "podaj promien:";
+	cin >> promien;
+	cout << "obwod kola wynosi:" << promien * 2 * pi << endl;
+	
+	
+	cout << "pole kola wynosi:" << pi * promien * promien << endl; 
+}
