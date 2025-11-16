@@ -1,0 +1,22 @@
+int main()
+
+{
+	float dlugosc, szerokosc;
+	cout << "podaj dlugosc prostokata i szerokosc prostokata: ";
+	cin >> dlugosc >> szerokosc;
+	cout << "pole prostokata wynosi: " << dlugosc * szerokosc << endl;
+	
+
+	cout<< "dlugosc przekatnej wynosi: "<< (dlugosc * dlugosc + szerokosc* szerokosc) / 2;
+	
+
+
+
+
+
+
+
+
+
+
+}
