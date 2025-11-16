@@ -1,0 +1,19 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+	float sekunda;
+	cout << "podaj liczbe sekund: ";
+	cin >> sekunda;
+	cout << sekunda / 3600 << "  godzin"<<endl;
+	cout << sekunda / 60 << "  minut" << endl;
+	cout << sekunda << "  sekund" << endl;
+
+
+
+
+
+}
