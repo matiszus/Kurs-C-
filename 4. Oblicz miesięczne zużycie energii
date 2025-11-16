@@ -1,0 +1,21 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+	float moc_urzadzenia, godziny, cena;
+	cout << "podaj moc urządzenia: ";
+	cin >> moc_urzadzenia;
+	cout << "podaj liczbe godzin dziennej pracy: ";
+	cin >> godziny;
+	cout << "podaj cene za 1kwh: ";
+	cin >> cena;
+	cout << "koszt miesiecznego zuzycia energi wynosi: "<<(moc_urzadzenia / 1000) * godziny * cena;
+	
+
+
+
+}
+	
