@@ -1,0 +1,18 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+	float dlugosc, wysokosc, litry_farby;
+	cout << "podaj dlugosc i wysokosc pokoju:  ";
+	cin >> dlugosc>> wysokosc;
+	cout << "ile metrow kwadratowych mozna pomalowac jednym litrem:  ";
+	cin >> litry_farby;
+	cout << (dlugosc * wysokosc) / litry_farby;
+
+
+
+
+}
